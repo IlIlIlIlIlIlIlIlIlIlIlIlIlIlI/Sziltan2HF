@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.15)  30 APR 2025 10:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.15)  30 APR 2025 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,17 +891,114 @@ Overfull \hbox (6.74632pt too wide) has occurred while \output is active
  []
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 109--127
+
+ []
+
+<hajlito.png, id=172, 200.1879pt x 346.896pt>
+File: hajlito.png Graphic file (type png)
+<use hajlito.png>
+Package pdftex.def Info: hajlito.png  used on input line 128.
+(pdftex.def)             Requested size: 70.0pt x 121.30424pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--184
+
+ []
+
+
 
 File: alairas.png Graphic file (type png)
 <use alairas.png>
-Package pdftex.def Info: alairas.png  used on input line 123.
+Package pdftex.def Info: alairas.png  used on input line 184.
 (pdftex.def)             Requested size: 175.0pt x 42.35883pt.
 
 Overfull \hbox (6.74632pt too wide) has occurred while \output is active
 | []|  
  []
 
-[3] (Sziltan_2HF.aux)
+[3 <./hajlito.png>]
+
+File: alairas.png Graphic file (type png)
+<use alairas.png>
+Package pdftex.def Info: alairas.png  used on input line 184.
+(pdftex.def)             Requested size: 175.0pt x 42.35883pt.
+
+Overfull \hbox (6.74632pt too wide) has occurred while \output is active
+| []|  
+ []
+
+[4]
+
+File: alairas.png Graphic file (type png)
+<use alairas.png>
+Package pdftex.def Info: alairas.png  used on input line 186.
+(pdftex.def)             Requested size: 175.0pt x 42.35883pt.
+
+Overfull \hbox (6.74632pt too wide) has occurred while \output is active
+| []|  
+ []
+
+[5] (Sziltan_2HF.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -910,35 +1007,34 @@ Package rerunfilecheck Info: File `Sziltan_2HF.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19725 strings out of 473899
- 367741 string characters out of 5727443
- 787981 words of memory out of 5000000
- 42352 multiletter control sequences out of 15000+600000
+ 19736 strings out of 473899
+ 367927 string characters out of 5727443
+ 795981 words of memory out of 5000000
+ 42361 multiletter control sequences out of 15000+600000
  562841 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,19n,93p,550b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Agi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm07
+ <C:\Users\Agi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm10
 00.pk> <C:\Users\Agi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-rm1000.pk> <C:\Users\Agi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1000.pk><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmex10.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Agi/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Agi/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Agi/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Agi/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Agi/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
-Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.p
-fb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-msy7.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/symbols/msam10.pfb>
-Output written on Sziltan_2HF.pdf (4 pages, 452177 bytes).
+bx1000.pk><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi12.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Agi/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Agi/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Agi/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Agi/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Agi/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
+C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/symbols/msam10.pfb>
+Output written on Sziltan_2HF.pdf (6 pages, 472139 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
