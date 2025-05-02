@@ -112,12 +112,75 @@
 		\renewcommand{\arraystretch}{1.8}
 		\resizebox{\textwidth}{!}{%
 			\centering
-			\begin{tabular}{c|c|c|c|c}
-				& N                     & V                                                                                  & $\text{M}_\text{h}$                                                                                                                            & $\text{M}_\text{t}$ \\ \hline
-				\begin{tabular}[c]{@{}c@{}}I.\\ $0 < x < 1$\end{tabular}   & $- A_x = 4 \kn$       & \begin{tabular}[c]{@{}c@{}}$A_y - x \cdot p =$\\ $= 7.5577 -5x \kn$\end{tabular}   & \begin{tabular}[c]{@{}c@{}}$M_A - x \cdot A_y + \dfrac{x}{2} \cdot (x \cdot p) =$\\ $= 2.5x^2 - 7.5577x + 5.8577 \knm$\end{tabular}            & $0 \knm$                 \\ \hline
-				\begin{tabular}[c]{@{}c@{}}II.\\ $1 < x < 1.7$\end{tabular}  & $- A_x + C_x = 0 \kn$ & \begin{tabular}[c]{@{}c@{}}$A_y - x \cdot p =$\\ $= 7.5577 -5x \kn$\end{tabular}   & \begin{tabular}[c]{@{}c@{}}$M_A - M_C - x \cdot A_y + \dfrac{x}{2} \cdot (x \cdot p) =$\\ $= 2.5x^2 - 7.5577x + 5.0577 \knm$\end{tabular}      & $0 \knm$                 \\ \hline
-				\begin{tabular}[c]{@{}c@{}}III.\\ $1.7 < x < 2.3$\end{tabular} & $- A_x + C_x = 0 \kn$ & \begin{tabular}[c]{@{}c@{}}$A_y - (a + b) \cdot p=$\\ $= -0.9423 \kn$\end{tabular} & \begin{tabular}[c]{@{}c@{}}$M_A - M_C - x \cdot A_y + (x - \dfrac{a + b}{2}) \cdot ((a + b) \cdot p) =$\\ $= 0.9423x - 2.1673 \knm$\end{tabular} & $0 \knm$                 \\
+			\begin{tabular}{c|c|c|c}
+				&\begin{tabular}[c]{@{}c@{}}I.\\ $0 < x < 1.5$\end{tabular}&
+				\begin{tabular}[c]{@{}c@{}}II.\\ $1.5 < x < 3$\end{tabular}&
+				\begin{tabular}[c]{@{}c@{}}III.\\ $3 < x < 4.5$\end{tabular} \\ \hline
+				$ \text{M}_h$&
+				\begin{tabular}[c]{@{}c@{}}$- M - p \cdot x \cdot \dfrac{x}{2} =$\\ $= -0.875x^2 - 1.5 \knm$\end{tabular}&
+				\begin{tabular}[c]{@{}c@{}}$- M - p \cdot L \cdot (x - \dfrac{L}{2}) - A_z \cdot (x - L)=$\\ $= 6.315x - 12.9375 \knm$\end{tabular}&
+				\begin{tabular}[c]{@{}c@{}}$- M - p \cdot L \cdot (x - \dfrac{L}{2}) - A_z \cdot (x - L) - C_z \cdot (x - 2L)=$\\ $= 18 - 4x \knm$\end{tabular} \\
 			\end{tabular}%
 		}
-	\end{table}
+	\end{table}\\\\
+	Az egyenletekből adódó függvény:
+	\begin{center}
+		\includegraphics[width=70pt]{ hajlito.png }
+	\end{center}
+	Az (1)-es rúd lehajlásfüggvényének meghatározásához felhasználhatjuk az alábbi összefüggéseket:\\\\
+	$-I \cdot E \cdot w''(x) = M_h(x) \xrightarrow{} -I \cdot E \cdot w'(x) = \int M_h(x) \xrightarrow{} -I \cdot E \cdot w(x) = \iint M_h(x)$\\\\
+	Ezek az összefüggések a rúd egészén igazak, úgyhogy felírom a hajlítónyomaték-függvény három szakaszának szükséges alakjait:
+		\begin{table}[h]
+		\renewcommand{\arraystretch}{1.8}
+		\resizebox{\textwidth}{!}{%
+			\centering
+			\begin{tabular}{c|c|c|c}
+				&I.&II.&III. \\ \hline
+				$ M_h$&
+				$-0.875x^2 - 1.5$&
+				$6.315x - 12.9375$&
+				$18-4x$ \\ \hline
+				$ \int M_h$&
+				$-0.2917x^3 - 1.5x + C_{11}$&
+				$3.15625x^2 - 12.9375x + C_{21}$&
+				$-2x^2 + 18x + C_{31}$ \\ \hline
+				$ \iint M_h$&
+				$-0.072917x^4 - 0.75x^2 + C_{11}x + C_{12}$&
+				$1.052083x^3 - 6.46875x^2 + C_{21}x + C_{22}$&
+				$-0.667x^3 + 9x^2 + C_{31}x + C_{32}$\\
+			\end{tabular}%
+		}
+	\end{table}\\
+	Az egyenletekben az integrálás miatt megjelenő ismeretleneket a peremfeltételekből kijövő egyenletrendszerrel tudjuk kiszámolni, itt elhagyhatjuk a $-I \cdot E$ szorzót.\\\\
+	A peremfeltételek:\\\\
+	$w_1(L) = 0 \quad w_2(L) = 0 \quad w_2(2L) = 0 \quad w_3(2L) = 0 \quad w'_1(L) = w'_2(L) \quad w'_2(2L) = w'_3(2L)$\\\\
+	Ezek alapján be tudunk helyettesíteni az x-ek helyére számokat, és 6db egyenletünk jön ki.\\\\\\
+	Az egyenletrendszer megoldása:\\\\
+	$C_{11} = 3.4688 \;\; C_{12} = -3.1465 \;\; C_{21} = 12.539 \;\; C_{22} = -7.8047 \;\; C_{31} = -33.8672 \;\; C_{32} = 38.6016$\\\\
+	Az így kijövő eredményeket fel tudjuk használni $w(x)$ és $\phi(x)$függvény meghatározásához:\\\\
+	$w(x) = -\dfrac{1}{I \cdot E} \cdot \iint M_h(x) \quad\quad \phi(x) = -\dfrac{1}{I \cdot E} \cdot \int M_h(x)$
+		\begin{table}[h]
+		\renewcommand{\arraystretch}{1.8}
+		\resizebox{\textwidth}{!}{%
+			\centering
+			\begin{tabular}{c|c|c|c}
+				&\begin{tabular}[c]{@{}c@{}}I.\\ $0 < x < 1.5$\end{tabular}&
+				\begin{tabular}[c]{@{}c@{}}II.\\ $1.5 < x < 3$\end{tabular}&
+				\begin{tabular}[c]{@{}c@{}}III.\\ $3 < x < 4.5$\end{tabular} \\ \hline
+				$ w(x)$&
+				$xyzsfdsfdsdsfdsfdfssssssssss$&
+				$xyz$&
+				$xyz$ \\ \hline
+				$ \phi(x)$&
+				$xyz$&
+				$xyz$&
+				$xyz$ \\
+			\end{tabular}%
+		}
+	\end{table}\\\\
+	kurva jó diagramok lestestotsostogooooooooooooooooo\\\\
+	Az ábráról láthatjuk, hogy a legnagyobb lehajlás $x = 4.5$-nél következik be:\\\\
+	$x_{max} = \underline{\underline{4.5 \meter}} \quad w_{max} = w(4.5) = \underline{\underline{-47.12 \meter}}$
+	\newpage
+	\harom
 \end{document}
