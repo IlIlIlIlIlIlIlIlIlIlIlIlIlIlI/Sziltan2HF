@@ -77,7 +77,7 @@
 	\adat
 	$ L = 1.5\;\meter \;\;\;$ $ h = 2.5\;\meter \;\;\;$ $ d = 58\;\mm$\\\\
 	$ F = 4\;\kn \;\;\; $ $ M = 1.5\knm $ $ p = 1.75\;\pknm \;\;\;$\\\\
-	$ \epsilon_a = -5.2\;\minegy \;\;\;$ $ \epsilon_b = 2.5\;\minegy \;\;\;$ $ \epsilon_c = 6\;\minegy \;\;\;$ $ \alpha = 30\;\fok \;\;\;$\\\\
+	$ \varepsilon_a = -5.2\;\minegy \;\;\;$ $ \varepsilon_b = 2.5\;\minegy \;\;\;$ $ \varepsilon_c = 6\;\minegy \;\;\;$ $ \alpha = 30\;\fok \;\;\;$\\\\
 	$ E = 210\;\gpa \;\;\;$ $ \nu = 0.3\;\dimnel \;\;\;$
 	\setcounter{page}{1}
 	\egy
@@ -212,15 +212,15 @@
 	Ezek alapján $\lambda = \underline{\underline{275.1774}} > \lambda_0$, tehát helyes volt a feltételezésünk
 	\negy
 	\includegraphics[width=80pt]{epsilonabra.png}\\
-	A nyúlásmérő-bélyegek elhelyezkedése miatt célszerű nevezések: $\epsilon_x = \epsilon_a \text{ és } \epsilon_z = \epsilon_c$\\\\
-	$\epsilon_y \text{ és } \gamma_{xz}$ megadására ezek alapján használhatunk két egyenletet:\\\\
-	$\epsilon_b = \epsilon_a \cdot \cos[2](\alpha) + \epsilon_b \cdot \sin[2](\alpha) + \dfrac{\gamma_{xz}}{2} \cdot \sin(2\alpha) \xrightarrow{} \gamma_{xz} = 11.316 \minegy$\\\\
-	$\epsilon_y = -\dfrac{\nu \cdot (\epsilon_x + \epsilon_z)}{1 - \nu} \xrightarrow{} \epsilon_y = -0.343 \minegy$\\\\
-	Ezek alapján az alakváltozási tenzor: $\boldsymbol{\epsilon} = 
+	A nyúlásmérő-bélyegek elhelyezkedése miatt célszerű nevezések: $\varepsilon_x = \varepsilon_a \text{ és } \varepsilon_z = \varepsilon_c$\\\\
+	$\varepsilon_y \text{ és } \gamma_{xz}$ megadására ezek alapján használhatunk két egyenletet:\\\\
+	$\varepsilon_b = \varepsilon_a \cdot \cos[2](\alpha) + \varepsilon_b \cdot \sin[2](\alpha) + \dfrac{\gamma_{xz}}{2} \cdot \sin(2\alpha) \xrightarrow{} \gamma_{xz} = 11.316 \minegy$\\\\
+	$\varepsilon_y = -\dfrac{\nu \cdot (\varepsilon_x + \varepsilon_z)}{1 - \nu} \xrightarrow{} \varepsilon_y = -0.343 \minegy$\\\\
+	Ezek alapján az alakváltozási tenzor: $\boldsymbol{\varepsilon} = 
 	\begin{bmatrix}
-		\epsilon_x & 0 & \frac{1}{2}\gamma_{xz}\\
-		0 & \epsilon_y & 0\\
-		\frac{1}{2}\gamma_{xz} & 0 & \epsilon_z
+		\varepsilon_x & 0 & \frac{1}{2}\gamma_{xz}\\
+		0 & \varepsilon_y & 0\\
+		\frac{1}{2}\gamma_{xz} & 0 & \varepsilon_z
 	\end{bmatrix} = 
 	\underline{\underline{\begin{bmatrix}
 	-5.2 & 0 & 5.658\\
@@ -229,9 +229,9 @@
 	\end{bmatrix} \minegy}}$\\\\
 	A Hooke-törvény segítségével meg tudjuk adni a feszültségi tenzort:
 	\begin{center}
-		$\boldsymbol{\sigma} = \dfrac{E}{1 + \nu} \cdot \left( \boldsymbol{\epsilon} + \dfrac{\nu}{1 - 2\nu} \cdot \epsilon_1 \cdot \textbf{E} \right)$
+		$\boldsymbol{\sigma} = \dfrac{E}{1 + \nu} \cdot \left( \boldsymbol{\varepsilon} + \dfrac{\nu}{1 - 2\nu} \cdot \varepsilon_1 \cdot \textbf{E} \right)$
 	\end{center}
-	$\epsilon_1 = \dfrac{\Delta V}{V} = tr(\boldsymbol{\epsilon}) = \epsilon_x + \epsilon_y + \epsilon_z = \underline{\underline{0.457 \minegy}}$\\\\
+	$\varepsilon_1 = \dfrac{\Delta V}{V} = tr(\boldsymbol{\varepsilon}) = \varepsilon_x + \varepsilon_y + \varepsilon_z = \underline{\underline{0.457 \minegy}}$\\\\
 	Ezek alapján az feszültségi tenzor: $\boldsymbol{\sigma} = 
 	\begin{bmatrix}
 		\sigma_x & 0 & \tau_{xz}\\
@@ -285,7 +285,7 @@
 	0\\
 	0\\ 
 	0 
-	\end{bmatrix}$\\\\
+	\end{bmatrix}$\\\\\\
 	$\underline{e}_1 = \begin{bmatrix}0.385 \\ 0 \\ 0.923\end{bmatrix}\checkmark \quad \underline{e}_2 = \begin{bmatrix}0 \\ 1 \\ 0\end{bmatrix}\checkmark \quad \underline{e}_3 = \begin{bmatrix}-0.9223 \\ 0 \\ 0.385\end{bmatrix}\checkmark$
 	\hatodik
 	Mohr-féle egyenértékű feszültség: $\sigma_e^{Mohr} = \sigma_1 - \sigma_3 = \underline{\underline{257.193 \mpa}}$\\\\
@@ -293,9 +293,9 @@
 	A kettő különbsége: $\Delta\sigma = \sigma_e^{Mohr} - \sigma_e^{HMH} = \underline{\underline{34.134 \mpa}}$
 	\het
 	Alakváltozási energiasűrűség értéke:\\\\
-	$u = \dfrac{\boldsymbol{\sigma} : \boldsymbol{\epsilon}}{2} = \dfrac{\sigma_x \cdot \epsilon_x + \tau_{xz} \cdot \gamma_{xz} + \sigma_z \cdot \epsilon_z}{2} = \underline{\underline{0.10285 \jpcm}}$\\\\
+	$u = \dfrac{\boldsymbol{\sigma} : \boldsymbol{\varepsilon}}{2} = \dfrac{\sigma_x \cdot \varepsilon_x + \tau_{xz} \cdot \gamma_{xz} + \sigma_z \cdot \varepsilon_z}{2} = \underline{\underline{0.10285 \jpcm}}$\\\\
 	Hidrosztatikus alakváltozási komponens:\\\\
-	$u_h =  \dfrac{(\dfrac{1}{3}\sigma_1 \cdot \textbf{E}) : (\dfrac{1}{3}\epsilon_1 \cdot \textbf{E})}{2} = \dfrac{1}{6}\sigma_1 \cdot \epsilon_1 = \underline{\underline{1.82857 \cdot 10^{-4} \jpcm}}$\\\\
+	$u_h =  \dfrac{(\dfrac{1}{3}\sigma_1 \cdot \textbf{E}) : (\dfrac{1}{3}\varepsilon_1 \cdot \textbf{E})}{2} = \dfrac{1}{6}\sigma_1 \cdot \varepsilon_1 = \underline{\underline{1.82857 \cdot 10^{-4} \jpcm}}$\\\\
 	Ezek alapján a deviátoros alakváltozási komponens:\\\\
 	$u_d = u - u_h = \underline{\underline{0.10267 \jpcm}}$
 \end{document}
