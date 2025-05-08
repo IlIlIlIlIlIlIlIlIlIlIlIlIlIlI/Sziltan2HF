@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.15)  8 MAY 2025 10:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.15)  8 MAY 2025 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,63 +735,59 @@ Package pdftex.def Info: elolap.pdf , page1 used on input line 76.
 
 
  <./elolap.pdf{C:/Users/Agi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
+7.
+ (C:\Users\Agi\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
 
- (C:\Users\Agi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+(C:\Users\Agi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
 
 
 (C:\Users\Agi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 78--83
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--83
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--83
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
 
  []
 
 <meretarany.png, id=166, 183.65219pt x 150.61115pt>
 File: meretarany.png Graphic file (type png)
 <use meretarany.png>
-Package pdftex.def Info: meretarany.png  used on input line 85.
+Package pdftex.def Info: meretarany.png  used on input line 86.
 (pdftex.def)             Requested size: 200.0pt x 164.02728pt.
 <SZTA1.png, id=168, 168.69582pt x 78.65451pt>
 File: SZTA1.png Graphic file (type png)
 <use SZTA1.png>
-Package pdftex.def Info: SZTA1.png  used on input line 92.
+Package pdftex.def Info: SZTA1.png  used on input line 93.
 (pdftex.def)             Requested size: 270.0pt x 125.89296pt.
 <SZTA2.png, id=169, 46.00624pt x 103.35771pt>
 File: SZTA2.png Graphic file (type png)
 <use SZTA2.png>
-Package pdftex.def Info: SZTA2.png  used on input line 93.
+Package pdftex.def Info: SZTA2.png  used on input line 94.
 (pdftex.def)             Requested size: 70.0pt x 157.28198pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
@@ -800,7 +796,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
 <alairas.png, id=170, 821.0675pt x 198.7425pt>
 File: alairas.png Graphic file (type png)
 <use alairas.png>
-Package pdftex.def Info: alairas.png  used on input line 97.
+Package pdftex.def Info: alairas.png  used on input line 99.
 (pdftex.def)             Requested size: 175.0pt x 42.35883pt.
 
 Overfull \hbox (6.74632pt too wide) has occurred while \output is active
@@ -812,30 +808,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 	\tabto{50pt}
-                  (1) $\sum{F_x} = 0 = C_x$\\\\ [1 <./alairas.png> <./meretaran
-y.png> <./SZTA1.png> <./SZTA2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+l.99 	\tabto{50pt}
+                  (2) $\sum{F_z} = 0 = A_z + C_z + p \cdot L - F$\\\\ [1 <./ala
+iras.png> <./meretarany.png> <./SZTA1.png> <./SZTA2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
 
  []
 
@@ -845,17 +831,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
@@ -880,10 +866,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
 
 File: alairas.png Graphic file (type png)
 <use alairas.png>
-Package pdftex.def Info: alairas.png  used on input line 111.
+Package pdftex.def Info: alairas.png  used on input line 112.
 (pdftex.def)             Requested size: 175.0pt x 42.35883pt.
 
 Overfull \hbox (6.74632pt too wide) has occurred while \output is active
@@ -891,62 +882,62 @@ Overfull \hbox (6.74632pt too wide) has occurred while \output is active
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 113--131
+Underfull \hbox (badness 10000) in paragraph at lines 114--132
 
  []
 
 <hajlito.png, id=192, 462.528pt x 346.896pt>
 File: hajlito.png Graphic file (type png)
 <use hajlito.png>
-Package pdftex.def Info: hajlito.png  used on input line 132.
+Package pdftex.def Info: hajlito.png  used on input line 133.
 (pdftex.def)             Requested size: 275.0pt x 206.2601pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--185
+Underfull \hbox (badness 10000) in paragraph at lines 135--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--185
+Underfull \hbox (badness 10000) in paragraph at lines 135--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--185
+Underfull \hbox (badness 10000) in paragraph at lines 135--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--185
+Underfull \hbox (badness 10000) in paragraph at lines 135--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--185
+Underfull \hbox (badness 10000) in paragraph at lines 135--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--185
+Underfull \hbox (badness 10000) in paragraph at lines 135--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--185
+Underfull \hbox (badness 10000) in paragraph at lines 135--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--185
+Underfull \hbox (badness 10000) in paragraph at lines 135--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--185
+Underfull \hbox (badness 10000) in paragraph at lines 135--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--185
+Underfull \hbox (badness 10000) in paragraph at lines 135--186
 
  []
 
@@ -954,7 +945,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--185
 
 File: alairas.png Graphic file (type png)
 <use alairas.png>
-Package pdftex.def Info: alairas.png  used on input line 185.
+Package pdftex.def Info: alairas.png  used on input line 186.
 (pdftex.def)             Requested size: 175.0pt x 42.35883pt.
 
 Overfull \hbox (6.74632pt too wide) has occurred while \output is active
@@ -965,15 +956,15 @@ Overfull \hbox (6.74632pt too wide) has occurred while \output is active
 <elmforg.png, id=198, 867.24pt x 433.62pt>
 File: elmforg.png Graphic file (type png)
 <use elmforg.png>
-Package pdftex.def Info: elmforg.png  used on input line 186.
+Package pdftex.def Info: elmforg.png  used on input line 187.
 (pdftex.def)             Requested size: 450.0pt x 225.00069pt.
 
-Overfull \hbox (31.74632pt too wide) in paragraph at lines 186--187
+Overfull \hbox (31.74632pt too wide) in paragraph at lines 187--188
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
 
  []
 
@@ -981,7 +972,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--190
 
 File: alairas.png Graphic file (type png)
 <use alairas.png>
-Package pdftex.def Info: alairas.png  used on input line 190.
+Package pdftex.def Info: alairas.png  used on input line 191.
 (pdftex.def)             Requested size: 175.0pt x 42.35883pt.
 
 Overfull \hbox (6.74632pt too wide) has occurred while \output is active
@@ -989,47 +980,47 @@ Overfull \hbox (6.74632pt too wide) has occurred while \output is active
  []
 
 [4 <./elmforg.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 192--197
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--197
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--197
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--197
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 
  []
 
 <krfesz.png, id=204, 462.528pt x 346.896pt>
 File: krfesz.png Graphic file (type png)
 <use krfesz.png>
-Package pdftex.def Info: krfesz.png  used on input line 198.
+Package pdftex.def Info: krfesz.png  used on input line 199.
 (pdftex.def)             Requested size: 265.0pt x 198.75964pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--209
+Underfull \hbox (badness 10000) in paragraph at lines 205--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--209
+Underfull \hbox (badness 10000) in paragraph at lines 205--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--209
+Underfull \hbox (badness 10000) in paragraph at lines 205--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--209
+Underfull \hbox (badness 10000) in paragraph at lines 205--210
 
  []
 
@@ -1037,7 +1028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--209
 
 File: alairas.png Graphic file (type png)
 <use alairas.png>
-Package pdftex.def Info: alairas.png  used on input line 213.
+Package pdftex.def Info: alairas.png  used on input line 214.
 (pdftex.def)             Requested size: 175.0pt x 42.35883pt.
 
 Overfull \hbox (6.74632pt too wide) has occurred while \output is active
@@ -1048,63 +1039,63 @@ Overfull \hbox (6.74632pt too wide) has occurred while \output is active
 <epsilonabra.png, id=210, 118.5228pt x 118.5228pt>
 File: epsilonabra.png Graphic file (type png)
 <use epsilonabra.png>
-Package pdftex.def Info: epsilonabra.png  used on input line 214.
+Package pdftex.def Info: epsilonabra.png  used on input line 215.
 (pdftex.def)             Requested size: 80.0pt x 80.00304pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--231
+Underfull \hbox (badness 10000) in paragraph at lines 215--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--231
+Underfull \hbox (badness 10000) in paragraph at lines 215--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--231
+Underfull \hbox (badness 10000) in paragraph at lines 215--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--231
+Underfull \hbox (badness 10000) in paragraph at lines 215--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--231
+Underfull \hbox (badness 10000) in paragraph at lines 215--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--249
+Underfull \hbox (badness 10000) in paragraph at lines 235--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--249
+Underfull \hbox (badness 10000) in paragraph at lines 235--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--249
+Underfull \hbox (badness 10000) in paragraph at lines 235--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--249
+Underfull \hbox (badness 10000) in paragraph at lines 235--250
 
  []
 
 <kocka.png, id=211, 348.3414pt x 348.3414pt>
 File: kocka.png Graphic file (type png)
 <use kocka.png>
-Package pdftex.def Info: kocka.png  used on input line 250.
+Package pdftex.def Info: kocka.png  used on input line 251.
 (pdftex.def)             Requested size: 157.0pt x 157.002pt.
 
 
 File: alairas.png Graphic file (type png)
 <use alairas.png>
-Package pdftex.def Info: alairas.png  used on input line 252.
+Package pdftex.def Info: alairas.png  used on input line 253.
 (pdftex.def)             Requested size: 175.0pt x 42.35883pt.
 
 Overfull \hbox (6.74632pt too wide) has occurred while \output is active
@@ -1112,67 +1103,67 @@ Overfull \hbox (6.74632pt too wide) has occurred while \output is active
  []
 
 [6 <./epsilonabra.png> <./kocka.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 253--258
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--258
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--258
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--258
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 
  []
 
 <Mohr.png, id=220, 396.2805pt x 213.6783pt>
 File: Mohr.png Graphic file (type png)
 <use Mohr.png>
-Package pdftex.def Info: Mohr.png  used on input line 259.
+Package pdftex.def Info: Mohr.png  used on input line 260.
 (pdftex.def)             Requested size: 250.0pt x 134.80713pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--269
+Underfull \hbox (badness 10000) in paragraph at lines 262--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--269
+Underfull \hbox (badness 10000) in paragraph at lines 262--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--269
+Underfull \hbox (badness 10000) in paragraph at lines 262--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--269
+Underfull \hbox (badness 10000) in paragraph at lines 262--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--269
+Underfull \hbox (badness 10000) in paragraph at lines 262--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--269
+Underfull \hbox (badness 10000) in paragraph at lines 262--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--269
+Underfull \hbox (badness 10000) in paragraph at lines 262--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--269
+Underfull \hbox (badness 10000) in paragraph at lines 262--270
 
  []
 
@@ -1180,7 +1171,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--269
 
 File: alairas.png Graphic file (type png)
 <use alairas.png>
-Package pdftex.def Info: alairas.png  used on input line 269.
+Package pdftex.def Info: alairas.png  used on input line 270.
 (pdftex.def)             Requested size: 175.0pt x 42.35883pt.
 
 Overfull \hbox (6.74632pt too wide) has occurred while \output is active
@@ -1188,83 +1179,83 @@ Overfull \hbox (6.74632pt too wide) has occurred while \output is active
  []
 
 [7 <./Mohr.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 271--290
+Underfull \hbox (badness 10000) in paragraph at lines 272--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--290
+Underfull \hbox (badness 10000) in paragraph at lines 272--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--290
+Underfull \hbox (badness 10000) in paragraph at lines 272--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--290
+Underfull \hbox (badness 10000) in paragraph at lines 272--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--290
+Underfull \hbox (badness 10000) in paragraph at lines 272--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--290
+Underfull \hbox (badness 10000) in paragraph at lines 272--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--290
+Underfull \hbox (badness 10000) in paragraph at lines 272--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--290
+Underfull \hbox (badness 10000) in paragraph at lines 272--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--294
+Underfull \hbox (badness 10000) in paragraph at lines 292--295
 
  []
 
 
-Overfull \hbox (14.83322pt too wide) in paragraph at lines 291--294
+Overfull \hbox (14.83322pt too wide) in paragraph at lines 292--295
 \T1/cmr/m/n/10 HMH-féle egyen-ér-té-k¶ fe-szült-ség: $\OML/cmm/m/it/10 ^^[[] \O
 T1/cmr/m/n/10 = [] = []$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--294
+Underfull \hbox (badness 10000) in paragraph at lines 292--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--301
+Underfull \hbox (badness 10000) in paragraph at lines 296--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--301
+Underfull \hbox (badness 10000) in paragraph at lines 296--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--301
+Underfull \hbox (badness 10000) in paragraph at lines 296--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--301
+Underfull \hbox (badness 10000) in paragraph at lines 296--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--301
+Underfull \hbox (badness 10000) in paragraph at lines 296--302
 
  []
 
@@ -1272,7 +1263,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--301
 
 File: alairas.png Graphic file (type png)
 <use alairas.png>
-Package pdftex.def Info: alairas.png  used on input line 301.
+Package pdftex.def Info: alairas.png  used on input line 302.
 (pdftex.def)             Requested size: 175.0pt x 42.35883pt.
 
 Overfull \hbox (6.74632pt too wide) has occurred while \output is active
@@ -1288,35 +1279,35 @@ Package rerunfilecheck Info: File `Sziltan_2HF.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19809 strings out of 473899
- 369040 string characters out of 5727443
+ 19831 strings out of 473899
+ 369718 string characters out of 5727443
  795055 words of memory out of 5000000
- 42420 multiletter control sequences out of 15000+600000
- 567158 words of font info for 59 fonts, out of 8000000 for 9000
+ 42438 multiletter control sequences out of 15000+600000
+ 567471 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,19n,93p,550b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Agi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm10
+ <C:\Users\Agi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt10
 00.pk> <C:\Users\Agi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ec
-bx1000.pk><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi12.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Agi/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Agi/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Agi/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Agi/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/A
-gi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
-ers/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y5.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/symbols/msam10.pfb>
-Output written on Sziltan_2HF.pdf (9 pages, 768216 bytes).
+rm1000.pk> <C:\Users\Agi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecbx1000.pk><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmex10.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Agi/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Agi/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Agi/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Agi/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ag
+i/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Use
+rs/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb><C:/Users/Agi/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/symbols/msam10.pfb>
+Output written on Sziltan_2HF.pdf (9 pages, 763773 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
+ 392 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
