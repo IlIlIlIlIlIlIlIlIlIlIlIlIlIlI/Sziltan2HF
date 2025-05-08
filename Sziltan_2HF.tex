@@ -161,8 +161,8 @@
 	Ezek alapján be tudunk helyettesíteni az x-ek helyére számokat, és 6db egyenletünk jön ki.\\\\\\
 	Az egyenletrendszer megoldása:\\\\
 	$C_{11} = 3.4688 \;\; C_{12} = -3.1465 \;\; C_{21} = 12.539 \;\; C_{22} = -7.8047 \;\; C_{31} = -33.8672 \;\; C_{32} = 38.6016$\\\\
-	Az így kijövő eredményeket fel tudjuk használni $w(x)$ és $\phi(x)$függvény meghatározásához:\\\\
-	$w(x) = -\dfrac{1}{I \cdot E} \cdot \iint M_h(x) \quad\quad \phi(x) = -\dfrac{1}{I \cdot E} \cdot \int M_h(x)$
+	Az így kijövő eredményeket fel tudjuk használni $w(x)$ és $\varphi(x)$függvény meghatározásához:\\\\
+	$w(x) = -\dfrac{1}{I \cdot E} \cdot \iint M_h(x) \quad\quad \varphi(x) = -\dfrac{1}{I \cdot E} \cdot \int M_h(x)$
 		\begin{table}[h]
 		\renewcommand{\arraystretch}{1.8}
 		\resizebox{\textwidth}{!}{%
@@ -175,7 +175,7 @@
 				$0.446x^4 + 4.59x^2 - 21.231x + 19.259$&
 				$-6.439x^3 + 39.593x^2 - 76.748x + 47.77$&
 				$4.08x^3 - 55.0863x^2 + 207.2909x - 236.269$ \\ \hline
-				$ \phi(x)$&
+				$ \varphi(x)$&
 				$1.785x^3 + 9.181x - 21.2312$&
 				$-19.318x^2 + 79.187x - 76.748$&
 				$12.2414x^2 - 110.173x + 207.291$ \\
@@ -253,7 +253,7 @@
 	$\boldsymbol{\sigma}$ mátrixból láthatjuk, hogy $\underline{e}_2$ főirány és $Y$ pont ismert.\\\\
 	Mohr-körök segítségével meg tudjuk adni $\sigma_{1,2}$-t is:\\\\
 	$\sigma_K = \dfrac{\sigma_x + \sigma_y}{2} \quad$
-	$R = \sqrt{\dfrac{\sigma_x - \sigma_y}{2}^2 + \tau^2_{xz}}$\\\\
+	$R = \sqrt{\left(\dfrac{\sigma_x - \sigma_y}{2}\right)^2 + \tau^2_{xz}}$\\\\
 	$X(\sigma_x,\tau_{xz}) \quad Y(\sigma_y, 0) \quad Z(\sigma_z, \tau_{xz})$\\
 	\begin{center}
 		\includegraphics[width=250pt]{ Mohr.png }
@@ -262,7 +262,7 @@
 	$\sigma_1 = \sigma_K + R = \underline{\underline{140.597 \mpa}}$\\\\
 	$\sigma_2 = \underline{\underline{0 \mpa}}$\\\\
 	$\sigma_3 = \sigma_K - R = \underline{\underline{-116.597 \mpa}}$\\\\
-	Az 1-es főfeszültséghez tartozó főirány: $\phi_1 = \atan(\dfrac{\sigma_1 - \sigma_x}{\tau_{xz}}) \xrightarrow{} \underline{e}_1 = \begin{bmatrix}\cos(\phi_1) \\ 0 \\ \sin(\phi_1)\end{bmatrix} = \underline{\underline{\begin{bmatrix}0.385 \\ 0 \\ 0.923\end{bmatrix}}}$\\\\\\
+	Az 1-es főfeszültséghez tartozó főirány: $\varphi_1 = \atan(\dfrac{\sigma_1 - \sigma_x}{\tau_{xz}}) \xrightarrow{} \underline{e}_1 = \begin{bmatrix}\cos(\varphi_1) \\ 0 \\ \sin(\varphi_1)\end{bmatrix} = \underline{\underline{\begin{bmatrix}0.385 \\ 0 \\ 0.923\end{bmatrix}}}$\\\\\\
 	Az 2-es főfeszültséghez tartozó főirány ismert: $\underline{e}_2 = \underline{\underline{\begin{bmatrix}0 \\ 1 \\ 0\end{bmatrix}}}$ \\\\\\
 	Az 3-as főfeszültséghez tartozó főirány:
 	$\underline{e}_3 = \underline{e}_1 \times \underline{e}_2 = \underline{\underline{\begin{bmatrix}-0.9223 \\ 0 \\ 0.385\end{bmatrix}}}$
