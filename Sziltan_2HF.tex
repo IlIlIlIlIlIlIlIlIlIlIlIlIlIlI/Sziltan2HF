@@ -106,13 +106,12 @@
 	\tabto{50pt}$A_z = \underline{\underline{-8.9375 \kn}}$\\\\
 	\tabto{50pt}$B_x = \underline{\underline{0 \kn}}$\\\\
 	\tabto{50pt}$B_z = \underline{\underline{10.3125 \kn}}$\\\\
-	\tabto{50pt}$M_B = \underline{\underline{0 \kn}}$\\\\
+	\tabto{50pt}$M_B = \underline{\underline{0 \knm}}$\\\\
 	\tabto{50pt}$C_x = \underline{\underline{0 \kn}}$\\\\
 	\tabto{50pt}$C_z = \underline{\underline{10.3125 \kn}}$
 	\newpage
 	\ketto
-	Ahhoz hogy meg tudjuk határozni w(x)-et először meg kell adnunk az (1)-es rúd hajlítónyomatéki igénybevételét:
-	A szerkezetet három részre tudjuk bontani, így a függvény:
+	Ahhoz hogy meg tudjuk határozni w(x)-et először meg kell adnunk az (1)-es rúd hajlítónyomatéki igénybevételét. A szerkezetet három részre tudjuk bontani, így a függvény:
 	\begin{table}[h]
 		\renewcommand{\arraystretch}{1.8}
 		\resizebox{\textwidth}{!}{%
@@ -291,12 +290,12 @@
 	\hatodik
 	Mohr-féle egyenértékű feszültség: $\sigma_e^{Mohr} = \sigma_1 - \sigma_3 = \underline{\underline{257.193 \mpa}}$\\\\
 	HMH-féle egyenértékű feszültség: $\sigma_e^{HMH} = \sqrt{\dfrac{(\sigma_1 - \sigma_2)^2 + (\sigma_2 - \sigma_3)^2 + (\sigma_3 - \sigma_1)^2}{2}} = \underline{\underline{223.059 \mpa}}$\\\\
-	A kettő különbsége: $\Delta\sigma = \sigma_e^{Mohr} - \sigma_e^{HMH} = \underline{\underline{34.134 \mpa}}$
+	A kettő különbsége: $\Delta\sigma_e = \sigma_e^{Mohr} - \sigma_e^{HMH} = \underline{\underline{34.134 \mpa}}$
 	\het
 	Alakváltozási energiasűrűség értéke:\\\\
 	$u = \dfrac{\boldsymbol{\sigma} : \boldsymbol{\varepsilon}}{2} = \dfrac{\sigma_x \cdot \varepsilon_x + \tau_{xz} \cdot \gamma_{xz} + \sigma_z \cdot \varepsilon_z}{2} = \underline{\underline{0.10285 \jpcm}}$\\\\
-	Hidrosztatikus alakváltozási komponens:\\\\
-	$u_h =  \dfrac{(\dfrac{1}{3}\sigma_1 \cdot \textbf{E}) : (\dfrac{1}{3}\varepsilon_1 \cdot \textbf{E})}{2} = \dfrac{1}{6}\sigma_1 \cdot \varepsilon_1 = \underline{\underline{1.82857 \cdot 10^{-4} \jpcm}}$\\\\
-	Ezek alapján a deviátoros alakváltozási komponens:\\\\
+	Térfogatváltozásra forduló komponens:\\\\
+	$u_h =  \dfrac{\left(\dfrac{1}{3}tr(\boldsymbol{\sigma}) \cdot \textbf{E})\right) : \left(\dfrac{1}{3}tr(\boldsymbol{\varepsilon}) \cdot \textbf{E}\right)}{2}= \dfrac{1}{6}\sigma_1 \cdot \varepsilon_1 = \underline{\underline{1.82857 \cdot 10^{-4} \jpcm}}$\\\\
+	Ezek alapján az alaktorzulásra forduló komponens:\\\\
 	$u_d = u - u_h = \underline{\underline{0.10267 \jpcm}}$
 \end{document}
